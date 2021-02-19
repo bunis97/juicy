@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>쥬씨 홈페이지</title>
+  <link rel="shortcut icon" href="./images/logo.jpg">
+  <!-- 그리드 시스템 css -->
+  <link rel="stylesheet" href="./css/grid.css">
+  <!-- 웹폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Swiper Slider -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- 사용자 css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <!-- Swiper Slider -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- 사용자 자바스크립트 -->
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <header id="main_header">
+    <div class="container">
+      <h1>
+        <a href="./index.html">
+          <img src="./images/logo.png" alt="juicy logo">
+        </a>
+      </h1>
+      <nav id="gnb">
+        <ul class="depth1">
+          <li><a href="#">쥬씨</a>
+            <ul class="depth2">
+              <li><a href="#">CEO인사말</a></li>
+              <li><a href="#">연혁</a></li>
+              <li><a href="#">경영목표</a></li>
+            </ul>
+          </li>
+          <li><a href="#">메뉴소개</a>
+            <ul class="depth2">
+              <li><a href="#">인기메뉴</a></li>
+              <li><a href="#">신제품</a></li>
+              <li><a href="#">생과일 주스</a></li>
+              <li><a href="#">커피</a></li>
+              <li><a href="#">음료</a></li>
+              <li><a href="#">디저트</a></li>
+            </ul>
+          </li>
+          <li><a href="#">창업 및 가맹</a>
+          <ul class="depth2">
+            <li><a href="#">창업문의</a></li>
+            <li><a href="#">창업 안내</a></li>
+            <li><a href="#">사업설명회</a></li>
+          </ul>
+          </li>
+          <li><a href="./location.html">오시는 길</a></li>
+          <li><a href="./introduce.html">브랜드소개</a></li>
+        </ul>
+      </nav>
+    </div><!-- end container -->
+  </header>
+
+  <section id="main_visual">
+    <!-- Slider main container -->
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- 여기에 슬라이더 콘텐츠 추가 -->
+        <div class="swiper-slide">
+          <img src="./images/banner01.jpg" alt="1">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/banner02.jpg" alt="2">
+        </div>
+  
+      </div>
+      <!-- pager UI -->
+      <div class="swiper-pagination"></div>
+      <div class="container1400">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>     
+  </section>
+
+  <!-- 제품소개 -->
+  <section id="product">
+    <div class="container">
+      <h2>
+        <img src="./images/besticon.png">
+        베스트 메뉴</h2>
+      <hr>
+      <div class="row">
+        <div class="col_4">
+          <a href="#">
+            <img class="img_responsive" src="./images/딸기바나나.png" alt="딸바">
+            <p>딸기바나나</p>
+          </a>
+        </div>
+        <div class="col_4">
+          <a href="#">
+            <img class="img_responsive" src="./images/초코바나나.png" alt="초바">
+            <p>초코바나나</p>
+          </a>
+        </div>
+        <div class="col_4">
+          <a href="#">
+            <img class="img_responsive" src="./images/귤.png" alt="귤">
+            <p>귤</p>
+          </a>
+        </div>
+        <div class="col_4">
+          <a href="#">
+            <img class="img_responsive" src="./images/딸기.png" alt="딸기">
+            <p>딸기</p>
+          </a>
+        </div>
+        <div class="col_4">
+          <a href="#">
+            <img class="img_responsive" src="./images/생딸라떼.png" alt="딸기라떼">
+            <p>생딸기라떼</p>
+          </a>
+        </div>
+        <div class="col_4">
+          <a href="#">
+            <img class="img_responsive" src="./images/아메리카노.png" alt="아메리카노">
+            <p>아메리카노</p>
+          </a>
+        </div>
+      </div>
+    </div><!-- end container -->
+  </section>
+
+    
+  <!-- 비전 -->
+  <section id="vision">
+    <div class="container">
+      <div class="row">
+        <div class="col_5">
+          <h2>JUICY<br><span>VISION</span></h2>
+          <p><q>해외 10여개 국가에서 과일을 수입, <br>
+            유통하여 미래의 변화에 대한 확고한 비전을 가지고<br>
+             일류 과일 유통기업으로 성장해 나가겠습니다.
+            </q></p>
+          <a href="./introduce.html" class="btn-detail">detail view</a>
+        </div>
+        <div class="col_7">
+          <img src="./images/비전.PNG" alt="사진">
+        </div>
+      </div>
+    </div><!-- container -->
+  </section>
+
+  <!-- 띠배너 -->
+  <section id="banner">
+    <div class="container">
+      <img src="./images/banner04.gif">
+    </div><!-- end container -->
+  </section>
+
+  <!-- notice(공지 및 문의 섹션) -->
+  <section id="notice">
+    <div class="container">
+      <div class="row">
+        <article class="leftcol_6">
+          <h2>쥬씨와 함께하는 성공창업</h2>
+          <p>원활한 상담을 위해 필요한 최소한의 개인정보를 수집하고 있습니다.<br>
+          개인 정보의 수집 및 이용에 관한 내용을 충분히 읽어보신 후 <br> 
+          동의하여 주시기 바랍니다.</p>
+          <br><br>
+          <p><q>쥬씨주식회사는 고객의 개인정보를 중요시하여,<br>
+          '정보통신망 이용촉진 및 정보보호'에 관한 법률을 준수하고 있습니다.<br>
+        회사는 개인정보처리방침을 개정하는 경우<br> 
+        웹사이트 공지사항 (또는 개별공지)을 통하여 공지할 것입니다.<br>
+        본 방침은 2011년 03월 27일 부터 시행됩니다.</q></p>
+          <a href="#" class="btn-detail btn-blue">detail view</a>
+        </article>
+        <article class="right col_6">
+
+          <h2>창업문의</h2>
+          <form action="#">
+            <div class="form-group">
+              <label for="Name">성함</label>
+              <input type="text" name="name" id="name" placeholder="김쥬씨">
+            </div>
+            <div class="form-group">
+              <label for="Phone">연락처</label>
+              <input type="tel" name="phone" id="phone" placeholder="010-****-****">
+            </div>
+            <div class="form-group">
+              <label for="Address">주소</label>
+              <input type="email" name="email" id="email" placeholder="주소">
+            </div>
+            <div class="form-group">
+              <label for="Email">이메일</label>
+              <input type="email" name="email" id="email" placeholder="juicy10@no1juicy.com">
+            </div>
+            <div class="form-group">
+              <label for="Location">희망지역</label>
+              <select name="Location" id="Location1">
+                <option value="hotel" selected>경기도</option>
+                <option value="office">서울특별시</option>
+                <option value="airplane">강원도</option>
+            </select>
+            <select name="Location" id="Location2">
+              <option value="hotel" selected>장기동</option>
+              <option value="office">운양동</option>
+              <option value="airplane">구래동</option>
+          </select>
+            </div>
+            <div class="form-group">
+              <div id="Memo">
+              <label for="Memo">문의내용</label>
+              <textarea name="memo" id="memo" cols="30" rows="5" placeholder="문의내용"></textarea>
+            </div>
+            <button class="btn-detail btn-red" type="submit">SEND</button>
+          </form>
+        </article>
+        </div>
+      </div>
+    </div><!-- end container -->
+  </section>
+  
+
+  <footer id="main_footer">
+    <div class="container">
+      <img src="./images/logo2.png">
+      <!-- 1.주소 -->
+      <address>쥬씨주식회사 |  주소 : 서울특별시 성동구 왕십리로 16가길 24 4층 (서울특별시 성동구 성수동 1가 656-1835 4층)</address>
+      <!-- 2.연락처, 사업자정보 -->
+      <p class="info">대표 : 윤석제  |  TEL : 02-966-1028  |  Fax : 051-754-0109  |  사업자등록번호 : 720-81-00137</p>
+      <!-- 3.저작권 정보(copyright) -->
+      <p class="copy">Copyright&copy;2016<strong>JUICY</strong>, All Right Reserved.</p>
+    </div><!-- end container -->
+  </footer>
+
+</body>
+</html>
